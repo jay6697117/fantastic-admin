@@ -34,6 +34,11 @@ export default {
       this.$store.commit('settings/setMode', document.body.clientWidth);
     };
     window.onresize();
+    console.log('App mounted 1');
+    console.log('App mounted 2');
+    console.log('App mounted 3');
+    console.log('App mounted 4');
+    console.log('App mounted 5');
   },
   methods: {},
   metaInfo() {
@@ -49,6 +54,6 @@ export default {
 
 <style scoped>
 #app {
-  height: 100%;
+    height: 100%;
 }
 </style>
