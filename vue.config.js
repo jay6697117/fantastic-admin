@@ -91,8 +91,8 @@ module.exports = {
           terserOptions: {
             compress: {
               warnings: false,
-              drop_console: true,
-              drop_debugger: true,
+              drop_console: true, //去除console
+              drop_debugger: true, //去除debugger
               pure_funcs: ['console.log']
             }
           }

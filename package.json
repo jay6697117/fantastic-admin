@@ -37,7 +37,6 @@
     "@winner-fed/vue-cli-plugin-stylelint": "^1.0.4",
     "babel-eslint": "^10.1.0",
     "babel-plugin-dynamic-import-node": "^2.3.3",
-    "babel-plugin-transform-remove-console": "^6.9.4",
     "compression-webpack-plugin": "^6.1.1",
     "eslint": "^7.12.1",
     "eslint-plugin-vue": "^7.1.0",
