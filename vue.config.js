@@ -114,10 +114,6 @@ module.exports = {
     }
   },
   pluginOptions: {
-    lintStyleOnBuild: true,
-    stylelint: {
-      fix: true
-    },
     mock: {
       entry: './src/mock/server.js',
       debug: true,
