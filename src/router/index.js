@@ -76,6 +76,7 @@ import PermissionExample from './modules/permission.example';
 import MockExample from './modules/mock.example';
 import VideosExample from './modules/videos.example';
 import ExTernalLinkExample from './modules/external.link.example';
+import Demo from './modules/demo';
 
 // 当 children 不为空的主导航只有一项时，则隐藏
 let asyncRoutes = [
@@ -91,7 +92,8 @@ let asyncRoutes = [
       ComponentBasicExample,
       ComponentExample,
       PermissionExample,
-      MockExample
+      MockExample,
+      Demo
     ]
   },
   {
